@@ -6,9 +6,36 @@
     <title>Form creation</title>
 </head>
 <body>
-    <label for="email">Email</label>
-    <input type="text" placeholder="Your email"> <br><br> 
-    <label for="passsword">Password</label>
-    <input type="password" placeholder="Your passsword">
+    <!--inside action, one should mention where the info of the form will go-->
+    <form action="https://formspree.io/f/xbljgzlv" method="POST">
+        <label>
+        Your name:
+        <input type="text" name="name">
+        </label>
+        <br> <br>
+        <label>
+        Your email:
+        <input type="email" name="email">
+        </label>
+        <br> <br>
+        <label>
+        Your contact:
+        <input type="text" name="contact">
+        </label>
+        <br> <br>
+        <label>
+        Your address:
+        <input type="text" name="address">
+        </label>
+        <br> <br>
+        <label>
+        Your message:
+        <textarea name="message"></textarea>
+        </label>
+        <br>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form>
+
 </body>
 </html>
