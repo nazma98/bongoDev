@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    gap: 10px;
+}
+
+.name{
+    display: flex;
+    gap:5px;
+}
+
+input{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.input-stl{
+    width: 150px;
+    border: solid rgb(192, 192, 192) 1px;
+}
+
+.input-email{
+    width: 305px;
+    border: solid rgb(192, 192, 192) 1px;
+    
+}
+
+.btn-sign-up{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(74, 74, 233);
+    border: none;
+    width: 305px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+
+}
