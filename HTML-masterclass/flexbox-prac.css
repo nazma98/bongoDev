@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.left-section{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.right-section{
+    background-color: lightpink;
+    width: 75px;
+}
