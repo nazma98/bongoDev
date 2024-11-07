@@ -33,3 +33,26 @@
     background-color: lightblue;
     width: 75px;
 }
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1{
+    background-color: lightblue;
+}
+
+.section2{
+    background-color: lightpink;
+}
+
+.section3{
+    background-color: lightblue;
+
+}
+
+.section4{
+    background-color: lightpink;
+
+}
