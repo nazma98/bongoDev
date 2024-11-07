@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-.container-1{
+.container{
     display: flex;
-    margin: auto;
-    width: 100%;
+    margin: 100px;
 }
 
 .left-section{
@@ -17,5 +16,20 @@
 
 .right-section{
     background-color: lightpink;
+    width: 75px;
+}
+
+.left-section2{
+    width: 50px ;
+    background-color: lightblue;
+}
+
+.mid-section2{
+    background-color: lightpink;
+    flex: 1;
+}
+
+.right-section2{
+    background-color: lightblue;
     width: 75px;
 }
