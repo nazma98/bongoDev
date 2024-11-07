@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    box-shadow: 0 0 10 black;
+    border: 1px solid black;
+    width: 40%;
+}
+
+.section-1{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-picture{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius:50px ;
+}
+.info{
+    width: 50%;
+    row-gap: 8px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.about{
+    color:gray ;
+    font-size: 18px;
+
+}
+
+.popular{
+    color: gray;
+    font-size: 15px;
+}
+
+.follow{
+    background-color: rgb(28, 137, 201);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
