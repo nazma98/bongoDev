@@ -18,25 +18,29 @@
     flex-direction: column;
     gap: 10px;
     width: 18%;
+    max-width: 350px;
     margin: auto;
     background-color: aliceblue;
 }
 
 .top-section{
     position: relative;
-    /* background-color: brown; */
+
 
 }
 
+.thumbnail,
+.embed-video {
+    width: 100%;
+    height: auto;
+}
+
+
 .thumbnail{
-    width: 350px;
+    /* width: 350px; */
     border-radius: 8px;
 }
 
-.embed-video{
-    width: 350px;
-    height: 195px;
-}
 
 .timestap{
     width: 30px;
@@ -97,10 +101,4 @@
     flex-direction: column;
     gap: 8px;
     font-weight: 700;
-}
-
-@media (max-width: 900px) {
-    .container{
-        flex: 1 1 100%;
-    }
 }
