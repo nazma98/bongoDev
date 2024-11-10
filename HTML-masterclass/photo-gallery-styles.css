@@ -4,11 +4,27 @@
     box-sizing: border-box;
 }
 
-.container{
-    background-color: aquamarine;
-    margin: 2rem 3rem;
+.body{
+    padding: 1rem 3rem;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container{
+    width: 85%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem 3rem;
+}
 .row{
     display: flex;
     gap: 1rem;
@@ -17,12 +33,11 @@
 .photo{
 
     position: relative;
-    background-color: azure;
+    /* background-color: azure; */
 
 }
 .item{
-    max-width: 300px;
-    min-width: 100px;
+    width: 250px;
     height: auto;
     border-radius: 10px ;
 
@@ -30,20 +45,56 @@
 
 .react{
     position: absolute;
-    padding: 5px 8px ;
+    padding: 3px 8px ;
     border-radius: 5px;
     background-color: white;
     top: 1rem;
     right: 3.2rem;
+    font-size: 20px;
+    color: gray;
+}
+
+.react:hover{
+    color: rgb(219, 0, 0);
 }
 
 .add{
     position: absolute;
-    padding: 5px 10px ;
+    padding: 3px 10px ;
     border-radius: 5px;
     background-color: white;
     top: 1rem;
     right: 1rem;
+    font-size: 20px;
+    color: gray;
+
+
+}
+
+.add:hover{
+    font-weight: bolder;
+    color: rgb(49, 49, 226);
+}
+
+.photographer{
+    font-size: 10px;
+    color: gray;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.photographer:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
 }
 
 .profile{
@@ -51,4 +102,16 @@
     height: 30px;
     object-fit: cover;
     border-radius: 15px;
+}
+
+.verified{
+ 
+    font-size: 8px;
+    border-radius: 50%;
+}
+
+.hire{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
