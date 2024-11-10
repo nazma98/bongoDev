@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aquamarine;
+    margin: 2rem 3rem;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+}
+
+.photo{
+
+    position: relative;
+    background-color: azure;
+
+}
+.item{
+    max-width: 300px;
+    min-width: 100px;
+    height: auto;
+    border-radius: 10px ;
+
+}
+
+.react{
+    position: absolute;
+    padding: 5px 8px ;
+    border-radius: 5px;
+    background-color: white;
+    top: 1rem;
+    right: 3.2rem;
+}
+
+.add{
+    position: absolute;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    background-color: white;
+    top: 1rem;
+    right: 1rem;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
