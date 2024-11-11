@@ -10,8 +10,10 @@ body{
 
 header{
     width: 100%;
-    background-color: rgb(248, 85, 26);
-    color: white;
+    /* background-color: rgb(248, 85, 26); */
+    background-color: #00b1b1;
+    color: rgb(10, 25, 47);
+    /* color: white; */
     font-weight: bold;
 }
 
@@ -22,22 +24,49 @@ nav{
     padding: 2rem 5rem;
 }
 
+.logo{
+    text-decoration: none;
+    color: rgb(10, 25, 47);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .nav-links{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 2rem;
 }
+
+
 
 .nav-links li a{
     text-decoration: none;
-    color: white ;
+    color: rgb(10, 25, 47) ;
+}
+
+.nav-links li a:hover{
+    color: white;
+
 }
 
 main{
     background-color:rgb(10, 25, 47);
     color: white;
     padding: 4rem;
+}
+
+.intro{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name{
+    color: #00b1b1;
+    font-size:4rem;
 }
 
 .heart{
