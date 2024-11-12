@@ -70,6 +70,40 @@ main{
     font-size:4rem;
 }
 
+#skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.left-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    /* background-color: #00b1b152; */
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    padding: 2rem;
+
+}
+
+.skill-logo{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-color: white;
+}
+
+footer{
+    background-image:linear-gradient(135deg,  #00b1b1, rgb(248, 85, 26)) ;
+    
+}
+
 .heart{
     color: red;
     font-size: 1.5rem;
