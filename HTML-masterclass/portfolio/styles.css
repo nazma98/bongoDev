@@ -10,11 +10,14 @@ body{
 
 header{
     width: 100%;
-    /* background-color: rgb(248, 85, 26); */
+    background-color: rgb(10, 25, 47);;
     /* background-color: #00b1b1; */
-    background-image:linear-gradient(135deg,  #00b1b1, rgb(248, 85, 26)) ;
-    color: rgb(10, 25, 47);
-    /* color: white; */
+    /* background-image:linear-gradient(135deg,  #00b1b1, rgb(248, 85, 26)) ; */
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+
+    /* color: rgb(10, 25, 47); */
+    color: white;
     font-weight: bold;
     position: fixed;
 }
@@ -28,7 +31,8 @@ nav{
 
 .logo{
     text-decoration: none;
-    color: rgb(10, 25, 47);
+    /* color: rgb(10, 25, 47); */
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -44,7 +48,8 @@ nav{
 
 .nav-links li a{
     text-decoration: none;
-    color: rgb(10, 25, 47) ;
+    /* color: rgb(10, 25, 47) ; */
+    color: white;
 }
 
 .nav-links li a:hover{
@@ -67,24 +72,46 @@ main{
     padding: 20rem 5rem;
 }
 
-.name{
+.my-name{
     color: #00b1b1;
     font-size:4rem;
 }
 
-#skill{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#about{
     width: 60%;
     margin: auto;
-    padding: 1rem 5rem 20rem 5rem;
+    padding: 5rem;
+}
+
+.about-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* width: 60%; */
+    line-height: 2rem;
+
+    margin: auto;
+    padding: 2rem 3rem 5rem 3rem;
+}
+
+#skill{
+    width: 60%;
+    margin: auto;
+    padding: 5rem;
+}
+
+.skill-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 60%; */
+    margin: auto;
+    padding: 4rem 3rem 20rem 3rem;
 }
 
 .right-section{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 1rem;
+    line-height: 2rem;
+    padding: 2rem;
 }
 
 .left-section{
@@ -94,14 +121,22 @@ main{
     /* background-color: #00b1b152; */
     background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
     padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(170, 170, 170);
 
 }
 
 .skill-logo{
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
     object-fit: contain;
-    background-color: white;
+    /* background-color: white; */
+}
+
+.skill-logo:hover{
+    box-shadow:  0 0 15px rgb(219, 219, 219);
+
 }
 
 #projects{
@@ -109,6 +144,20 @@ main{
     margin: auto;
     padding: 2rem;
     /* background-color: blueviolet; */
+    padding: 5rem 3rem 20rem 3rem;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.horizontal-line{
+    width: 1000px;
+    height: 2px;
+    background-color: #00b1b1;
 
 }
 
@@ -145,6 +194,7 @@ main{
 .project-title{
     color: #00b1b1;
     font-weight: bold;
+    font-size: large;
     /* background-color: white; */
 }
 
@@ -168,12 +218,141 @@ main{
     width: 1.5rem;
 }
 
-footer{
-    background-image:linear-gradient(135deg,  #00b1b1, rgb(248, 85, 26)) ;
+#contact{
+    width: 65%;
+    margin: auto;
+    padding: 2rem;
+    padding: 5rem 3rem 8rem 3rem;
+}
+
+
+.contact-form{
+    display: flex;
+    margin: 2rem;
+    gap: 4rem;
+
+}
+
+.contact-left-section{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+.contact-right-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
     
 }
 
+#name, #email, #message{
+    width: 400px;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+
+
+}
+
+#message{
+    height: 8rem;
+
+}
+
+button{
+    padding: 5px;
+    width: 5rem;
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+    border-radius: 5px;
+    border: none;
+    color: rgb(10, 25, 47);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+button:hover{
+    color: white;
+    background-image: linear-gradient(135deg,#006868c7,  rgba(173, 47, 1, 0.822));
+
+}
+
+footer{
+
+    /* background-image:linear-gradient(135deg,  #00b1b1, rgb(248, 85, 26)) ; */
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+
+    background-color: rgb(10, 25, 47);;
+    text-align: center;
+    padding: 10px;
+    color: wheat;
+    font-weight: bold;
+
+    
+}
+
+.social-links{
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: rgb(65, 65, 65);
+
+}
+
+.social-item{
+    width: 40px;
+    height: 40px;
+    background-color: #bbb9b9c5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+
+.social-item:hover{
+    background-color: white;
+    font-size: 2rem;
+    .fa-facebook{
+        color: rgb(60, 90, 154);
+
+    }
+
+    .fa-twitter{
+        color: rgb(49, 172, 225);
+    }
+    .fa-discord{
+        color: rgb(86, 106, 246);
+    }
+
+    .fa-linkedin{
+        color: rgb(20, 105, 199);
+    }
+
+    .fa-github{
+        color: rgb(34, 38, 42);
+    }
+}
+
+
+
+
+
 .heart{
-    color: red;
+    /* color: red; */
     font-size: 1.5rem;
 }
+
+#copy{
+    font-size: 1rem;
+}
+
