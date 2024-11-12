@@ -75,6 +75,9 @@ main{
 #skill{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    padding: 1rem 5rem 20rem 5rem;
 }
 
 .right-section{
@@ -102,18 +105,27 @@ main{
 }
 
 #projects{
-    width: 60%;
+    width: 65%;
     margin: auto;
-
+    padding: 2rem;
+    /* background-color: blueviolet; */
 
 }
+
+.intro-section{
+    padding: 2rem;
+   
+}
+
+
+
+
 
 .projects{
     /* background-color: aquamarine; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    padding: 2rem;
+    gap: 1.5rem;
 
 }
 
