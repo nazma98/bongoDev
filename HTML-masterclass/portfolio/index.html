@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav>
-            <a class="logo" href="#">My portfolio</a>
+            <a class="logo" href="#">NazmaS</a>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <!-- <li><a href="#skill">Skill</a></li> -->
@@ -27,9 +27,9 @@
     </header>
     <main>
         <div id="home" class="intro">
-            <h4>Hi, I am</h4>
+            <h4 id="top-section-name">Hi, I am</h4>
             <h1 class="my-name">Nazma Sarker.</h1>
-            <h1>A creative professional with a passion for building engaging & effective web applications.</h1>
+            <h1 class="bottom-name-section">A creative professional with a passion for building engaging & effective web applications.</h1>
         </div>
         <section id="about">
             <div class="section-title">
@@ -37,12 +37,12 @@
                 <div class="horizontal-line"></div>
             </div>
             <div class="about-section">
-                <h3>
-                    I’m a tech enthusiast and passionate problem solver with a strong foundation in software development and backend engineering. 
-                    Skilled in Python, Java, C, C++, Laravel, Django, and Linux, I love exploring innovative solutions and optimizing performance. 
+              
+                    Hey there! My name is Nazma Sarker. I’m a tech enthusiast and passionate problem solver with a strong foundation in software development and backend engineering. 
+                    Skilled in Python, Java, C, C++, Laravel, Django, and Linux, I love exploring open-source, innovative solutions and optimizing performance. 
                     Whether it's building applications, diving into new frameworks, or enhancing user experiences, I bring dedication and adaptability to every project. 
                     Open for hire and excited to collaborate on impactful projects!
-                </h3>
+         
             </div>
         </section>
         <section id="skill">
@@ -52,9 +52,7 @@
             </div>
             <div class="skill-section">
                 <div class="right-section">
-                    <h3>
                         I am Proficient in Python, Java, C, and C++ for problem solving and versatile software development. Also familiar with web frameworks such as Laravel and Django for building robust web applications. I have experiences with Linux for development and scripting.
-                    </h3>
                 </div>
                 <div class="left-section">
                     <img class="skill-logo" src="images/HTML5_logo.png" alt="">
@@ -81,14 +79,12 @@
 
 
         <section id="projects">
-            <div class="intro-section">
-                <div class="section-title">
-                    <h2>Projects</h2>
-                    <div class="horizontal-line"></div>
-                </div>
-
-                <h3>Here are some projects I have built myself</h3>
-                
+            <div class="section-title">
+                <h2>Projects</h2>
+                <div class="horizontal-line"></div>
+            </div>
+            <div class="project-intro">
+                Here are some projects I have worked on previously!   
             </div>
 
             <div class="projects">
@@ -255,22 +251,30 @@
             <div class="contact-description">
                 Looking to collaborate or need expertise on your next project? I’m open for hire!
             </div>
-            <div class="contact-form">
+            <div >
                 <form action="https://formspree.io/f/xanyjbqo" method="post" class="contact-form">
 
                     <div class="contact-left-section">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <div class="input-field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
                         
                     </div>
 
                     <div class="contact-right-section">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        
+                        <div class="input-field">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+        
+                        </div>
+            
                         <button type="submit">Send Message</button>    
                     </div>
                     
