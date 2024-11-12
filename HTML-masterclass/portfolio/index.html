@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Amazing Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,7 +16,8 @@
         <nav>
             <a class="logo" href="#">My portfolio</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#skill">Skill</a></li> -->
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -24,40 +26,75 @@
         </nav>
     </header>
     <main>
-        <div class="intro">
-            <h5>Hi, I am</h5>
-            <h1 class="name">Nazma Sarker.</h1>
+        <div id="home" class="intro">
+            <h4>Hi, I am</h4>
+            <h1 class="my-name">Nazma Sarker.</h1>
             <h1>A creative professional with a passion for building engaging & effective web applications.</h1>
         </div>
+        <section id="about">
+            <div class="section-title">
+                <h2>About</h2>
+                <div class="horizontal-line"></div>
+            </div>
+            <div class="about-section">
+                <h3>
+                    I’m a tech enthusiast and passionate problem solver with a strong foundation in software development and backend engineering. 
+                    Skilled in Python, Java, C, C++, Laravel, Django, and Linux, I love exploring innovative solutions and optimizing performance. 
+                    Whether it's building applications, diving into new frameworks, or enhancing user experiences, I bring dedication and adaptability to every project. 
+                    Open for hire and excited to collaborate on impactful projects!
+                </h3>
+            </div>
+        </section>
         <section id="skill">
-            <div class="right-section">
-                I am skilled in python, java, c, c++, laravel, django, linux etc
+            <div class="section-title">
+                <h2>Skills</h2>
+                <div class="horizontal-line"></div>
             </div>
-            <div class="left-section">
-                <img class="skill-logo" src="images/HTML5_logo.png" alt="">
-                <img class="skill-logo" src="images/css-logo.png" alt="">
-                <img class="skill-logo" src="images/js-logo.jpeg" alt="">
-                <img class="skill-logo" src="images/bootstrap-logo.jpg" alt="">
-                <img class="skill-logo" src="images/c-logo.png" alt="">
-                <img class="skill-logo" src="images/cpp-logo.png" alt="">
-                <img class="skill-logo" src="images/java logo.jpeg" alt="">
-                <img class="skill-logo" src="images/python-logo.jpeg" alt="">
-                <img class="skill-logo" src="images/django.png" alt="">
-                <img class="skill-logo" src="images/laravel-logo.png" alt="">
-                <img class="skill-logo" src="images/PHP-logo.png" alt="">
-                <img class="skill-logo" src="images/github-logo.png" alt="">
-                <img class="skill-logo" src="images/linux-logo.png" alt="">
+            <div class="skill-section">
+                <div class="right-section">
+                    <h3>
+                        I am Proficient in Python, Java, C, and C++ for problem solving and versatile software development. Also familiar with web frameworks such as Laravel and Django for building robust web applications. I have experiences with Linux for development and scripting.
+                    </h3>
+                </div>
+                <div class="left-section">
+                    <img class="skill-logo" src="images/HTML5_logo.png" alt="">
+                    <img class="skill-logo" src="images/css-logo-tr.png" alt="">
+                    <img class="skill-logo" src="images/js-logo.png" alt="">
+                    <img class="skill-logo" src="images/bootstrap-logo.png" alt="">
+                    <img class="skill-logo" src="images/c-logo.png" alt="">
+                    <img class="skill-logo" src="images/cpp-logo.png" alt="">
+                    <img class="skill-logo" src="images/java-logo.png" alt="">
+                    <img class="skill-logo" src="images/python-logo.png" alt="">
+                    <img class="skill-logo" src="images/django-logo.png" alt="">
+                    <img class="skill-logo" src="images/laravel-logo.png" alt="">
+                    <img class="skill-logo" src="images/PHP-logo.png" alt="">
+                    <img class="skill-logo" src="images/mysql-logo.png" alt="">
+                    <img class="skill-logo" src="images/linux-logo.png" alt="">
+                    <img class="skill-logo" src="images/typescript-logo.png" alt="">
+                    <img class="skill-logo" src="images/github-logo.png" alt="">
+
+
+                </div>
             </div>
+
         </section>
 
 
         <section id="projects">
-            <h2 class="intro-section">Here are some projects I have built myself</h2>
-            <div class="horizontal-line"></div>
+            <div class="intro-section">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <h3>Here are some projects I have built myself</h3>
+                
+            </div>
+
             <div class="projects">
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 1</h2>
+                        <h3>Project 1</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -82,7 +119,7 @@
     
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 2</h2>
+                        <h3>Project 2</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -107,7 +144,7 @@
     
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 3</h2>
+                        <h3>Project 3</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -132,7 +169,7 @@
     
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 4</h2>
+                        <h3>Project 4</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -157,7 +194,7 @@
     
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 5</h2>
+                        <h3>Project 5</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -182,7 +219,7 @@
     
                 <div class="project-item">
                     <div class="project-title">
-                        <h2>Project 6</h2>
+                        <h3>Project 6</h3>
                     </div>
                     <div class="description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quos.
@@ -211,11 +248,57 @@
 
 
         <section id="contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <div class="horizontal-line"></div>
+            </div>
+            <div class="contact-description">
+                Looking to collaborate or need expertise on your next project? I’m open for hire!
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xanyjbqo" method="post" class="contact-form">
 
+                    <div class="contact-left-section">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                    </div>
+
+                    <div class="contact-right-section">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send Message</button>    
+                    </div>
+                    
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        Made with <span class="heart">&hearts;</span> by Nazma. All rights reserved.
+        <div class="footer-content">
+            <div class="social-links">
+                <div class="social-item">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-discord"></i>
+                </div>
+            </div>
+            Made with <span class="heart">&hearts;</span> by Nazma <span id="copy">&copy;</span>  Copyright 2025. All rights reserved.
+        </div>
     </footer>
 </body>
 </html>
