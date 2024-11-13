@@ -1,0 +1,169 @@
+
+#projects{
+    width: 65%;
+    margin: auto;
+    padding: 2rem;
+    /* background-color: blueviolet; */
+    padding: 5rem 3rem 20rem 3rem;
+}
+
+
+
+.project-intro{
+    padding: 2rem 5rem 5rem 5rem ;
+    text-align: center;
+   
+}
+
+
+
+
+
+.projects{
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+}
+
+.project-item{
+    background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    width: 350px;
+    height: 300px;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+
+}
+
+.project-item:hover{
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+
+}
+
+.project-title{
+    color: #00b1b1;
+    font-weight: bold;
+    font-size: large;
+    /* background-color: white; */
+}
+
+.project-title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.description{
+    /* background-color: rgb(216, 211, 211); */
+    /* color: #00b1b1; */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tech-items{
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+.git-link{
+    width: 1.5rem;
+}
+
+
+/* Reponsive */
+
+@media (max-width:600px){
+    #projects{
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+    }
+    
+    
+    
+    .project-intro{
+    
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* width: 60%; */
+        line-height: 1.5rem;
+        font-size: 12px;
+        margin: auto;
+        padding: 1rem ;
+       
+    }
+
+    .projects{
+        /* background-color: aquamarine; */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        justify-items: center;
+    
+    }
+    
+    .project-item{
+        background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr 50px;
+        width: 300px;
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        padding: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(170, 170, 170);
+    
+    }
+
+
+    .project-item:active{
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgb(196, 196, 196);
+
+    }
+
+    .project-title{
+        color: #00b1b1;
+        font-weight: bold;
+        font-size: 15px;
+        /* background-color: white; */
+    }
+
+    .project-title:active{
+        color: white;
+        cursor: pointer;
+    }
+
+    .description{
+        /* background-color: rgb(216, 211, 211); */
+        /* color: #00b1b1; */
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .tech-items{
+        display: flex;
+        gap: 1rem;
+        font-size: 10px;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+
+
+    .git-link{
+        width: 1rem;
+    }
+
+}
