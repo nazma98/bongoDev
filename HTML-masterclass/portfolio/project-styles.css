@@ -23,6 +23,7 @@
     /* background-color: aquamarine; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 1.5rem;
 
 }
@@ -32,7 +33,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr 50px;
-    width: 350px;
+    width: 99%;
     height: 300px;
     padding: 2rem;
     border-radius: 5px;
@@ -206,6 +207,94 @@
         grid-template-columns: 1fr;
         grid-template-rows: 50px 1fr 50px;
         /* width: 300px; */
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        padding: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(170, 170, 170);
+    
+    }
+
+
+    .project-item:active{
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgb(196, 196, 196);
+
+    }
+
+    .project-title{
+        color: #00b1b1;
+        font-weight: bold;
+        font-size: 15px;
+        /* background-color: white; */
+    }
+
+    .project-title:active{
+        color: white;
+        cursor: pointer;
+    }
+
+    .description{
+        /* background-color: rgb(216, 211, 211); */
+        /* color: #00b1b1; */
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .tech-items{
+        display: flex;
+        gap: 1rem;
+        font-size: 10px;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+
+
+    .git-link{
+        width: 1rem;
+    }
+
+}
+
+
+@media (max-width:1264px){
+    #projects{
+        width: 65%;
+        margin: auto;
+        padding: 1rem;
+    }
+    
+    
+    
+    .project-intro{
+    
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* width: 60%; */
+        line-height: 1.5rem;
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem ;
+       
+    }
+
+    .projects{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        justify-items: center;
+    
+    }
+    
+    .project-item{
+        background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr 50px;
         width: 90%;
         height: 250px;
         margin: auto;
