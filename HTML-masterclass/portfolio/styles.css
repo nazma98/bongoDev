@@ -189,7 +189,7 @@ main{
     display: flex;
     margin: auto;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
   
 
 }
