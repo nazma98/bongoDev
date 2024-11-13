@@ -1163,7 +1163,7 @@ footer{
         align-items: center;
     }
 
-    .left-section{
+    .left-section{ 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
@@ -1177,8 +1177,8 @@ footer{
     }
 
     .skill-logo{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 5px;
         object-fit: contain;
         cursor: pointer; /* Changes the cursor to pointer */
@@ -1192,15 +1192,6 @@ footer{
 
     }
 
-    /* #contact{
-        width: 100%;
-        margin: auto;
-        padding: 1rem;
-        font-size: 12px;
-        margin: auto;
-        padding: 1rem ;
-        line-height: 1.5rem;
-    } */
 
     #contact{
         width: 100%;
