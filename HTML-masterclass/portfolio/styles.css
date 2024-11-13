@@ -109,7 +109,7 @@ main{
     line-height: 2rem;
 
     margin: auto;
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 3rem;
 }
 
 #skill{
@@ -123,23 +123,24 @@ main{
     grid-template-columns: 1fr 1fr;
     /* width: 60%; */
     margin: auto;
-    padding: 0rem 3rem 20rem 3rem;
+    padding: 2rem 3rem 20rem 3rem;
 }
 
 .right-section{
     display: grid;
     grid-template-columns: 1fr;
     line-height: 2rem;
-    padding: 1rem 2rem;
+    padding:0 2rem;
 }
 
 .left-section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+    column-gap: 0.5rem;
     justify-items:center;
     background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
-    padding: 2rem;
+    padding:1rem  0.5rem;
     border-radius: 3px;
     box-shadow: 0 0 5px rgb(170, 170, 170);
 
@@ -152,6 +153,7 @@ main{
     object-fit: contain;
     cursor: pointer; /* Changes the cursor to pointer */
     transition: box-shadow 0.3s ease-in-out;
+    /* background-color: aliceblue; */
 }
 
 .skill-logo:hover{
