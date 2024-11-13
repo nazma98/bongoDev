@@ -1111,7 +1111,7 @@ footer{
 
 
     #skill{
-        width: 100%;
+        width: 65%;
         margin: auto;
         padding: 1rem;
         font-size:1rem;
@@ -1121,27 +1121,33 @@ footer{
     }
 
     .skill-section{
+        width: 85%;
         display: flex;
         flex-direction: column;
-        padding: 0.5rem;
+        padding: 2.5rem;
+        gap: 2rem;
         /* padding: 0rem 3rem 20rem 3rem; */
     }
 
     .right-section{
+        width: 70%;
+        margin: auto;
         display: grid;
         line-height: 1.5rem;
         padding:1rem 1rem 1.5rem 1rem ;
         grid-template-columns: 1fr;
-        align-items: center;
+        justify-items: center;
     }
 
     .left-section{
+        width: 70%;
+        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
         justify-items:center;
         background-image: linear-gradient(135deg,#00b1b169,  rgba(248, 85, 26, 0.514));
-        padding: 1.5 rem 1rem;
+        padding: 1rem;
         border-radius: 3px;
         box-shadow: 0 0 5px rgb(170, 170, 170);
         /* background-color: aliceblue; */
