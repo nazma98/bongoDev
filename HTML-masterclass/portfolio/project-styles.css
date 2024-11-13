@@ -82,9 +82,10 @@
 
 /* Reponsive */
 
-@media (max-width:480px){
+
+@media (max-width:1264px){
     #projects{
-        width: 100%;
+        width: 65%;
         margin: auto;
         padding: 1rem;
     }
@@ -96,19 +97,20 @@
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
-        /* width: 60%; */
+   
         line-height: 1.5rem;
-        font-size: 12px;
+        font-size: 1rem;
         margin: auto;
-        padding: 1rem ;
+        padding-bottom:2.5rem ;
        
     }
 
     .projects{
-        /* background-color: aquamarine; */
+        width: 100%;
+        margin: auto;
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4rem;
         justify-items: center;
     
     }
@@ -118,7 +120,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 50px 1fr 50px;
-        width: 300px;
         width: 90%;
         height: 250px;
         margin: auto;
@@ -139,7 +140,7 @@
         color: #00b1b1;
         font-weight: bold;
         font-size: 15px;
-        /* background-color: white; */
+     
     }
 
     .project-title:active{
@@ -148,8 +149,7 @@
     }
 
     .description{
-        /* background-color: rgb(216, 211, 211); */
-        /* color: #00b1b1; */
+  
         font-size: 13px;
         font-weight: bold;
     }
@@ -159,7 +159,7 @@
         gap: 1rem;
         font-size: 10px;
         align-items: center;
-        /* background-color: aqua; */
+      
     }
 
 
@@ -167,7 +167,8 @@
         width: 1rem;
     }
 
-}
+} 
+
 
 @media (max-width:768px){
     #projects{
@@ -258,34 +259,33 @@
 }
 
 
-@media (max-width:1264px){
+@media (max-width:480px){
     #projects{
-        width: 65%;
+        width: 100%;
         margin: auto;
-        padding: 1rem;
+        padding: 10px;
+        background-color: rgb(124, 124, 124);
     }
     
     
     
     .project-intro{
-    
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
-        /* width: 60%; */
+        width: 100%;
         line-height: 1.5rem;
-        font-size: 1rem;
+        font-size: 12px;
         margin: auto;
-        padding-bottom:2.5rem ;
+        padding: 1rem ;
        
     }
 
     .projects{
-        width: 100%;
-        margin: auto;
+        /* background-color: aquamarine; */
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 4rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
         justify-items: center;
     
     }
@@ -295,6 +295,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 50px 1fr 50px;
+        width: 300px;
         width: 90%;
         height: 250px;
         margin: auto;
@@ -344,3 +345,4 @@
     }
 
 }
+
