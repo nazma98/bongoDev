@@ -156,7 +156,7 @@ main{
 
 .skill-logo:hover{
     box-shadow: 0 0 15px 5px #00b1b1; /* Adjust color and intensity */
-
+    background-color:#00b1b1ce;
 
 }
 
@@ -569,6 +569,7 @@ footer{
 
     label{
         margin: 0 0 0 5%;
+        font-size: 12px;
     }
 
     .input-field{
