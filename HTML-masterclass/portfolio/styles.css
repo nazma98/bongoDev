@@ -83,6 +83,7 @@ main{
 }
 
 .section-title{
+    color: #00b1b1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1078,6 +1079,7 @@ footer{
 
 
     .section-title{
+
         display: flex;
         flex-direction: column;
         align-items: center;
