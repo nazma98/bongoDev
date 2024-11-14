@@ -6,7 +6,7 @@
 
 .transform-example{
     background-color: rgb(0, 79, 116);
-    padding: 20px;
+    padding: 10px 20px;
     text-align: center;
     color: white;
     transition: transform 0.4s;
