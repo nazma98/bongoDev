@@ -4,3 +4,8 @@
     box-sizing: border-box;
 }
 
+.pseudo-example{
+    font-size: 20px;
+    color: #333;
+    position: relative;
+}
