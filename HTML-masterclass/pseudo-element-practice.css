@@ -14,3 +14,8 @@
     content: "Start - ";
     color: green;
 }
+
+.pseudo-example::after{
+    content: " - End";
+    color: red;
+}
