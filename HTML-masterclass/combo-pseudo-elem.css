@@ -7,6 +7,8 @@
 .styled-btn{
     background-color: blueviolet;
     color: white;
+    font-weight: bold;
+    margin: 100px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
