@@ -29,5 +29,8 @@
     transition: transform 0.3s ease;
 }
 
-
+.styled-btn:hover{
+    background-color: rgb(35, 0, 68);
+    transform: scale(1.1);
+}
 
