@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.transition-example{
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition:background-color 0.3s ease ;
+}
+
+.transition-example:hover{
+    background-color: #FF5722;
+}
