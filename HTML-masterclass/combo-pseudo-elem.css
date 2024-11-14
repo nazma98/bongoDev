@@ -34,3 +34,6 @@
     transform: scale(1.1);
 }
 
+.styled-btn:hover::after{
+    transform: scaleX(1);
+}
